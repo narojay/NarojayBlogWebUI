@@ -1,4 +1,4 @@
-# demoblog
+# NarojayBlogWebUI
 
 ## Project setup
 ```
