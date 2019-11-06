@@ -3,7 +3,6 @@ import AboutMe from './components/AboutMe.vue'
 import Articles from './components/Articles.vue'
 import Article from './components/Article.vue'
 export default new Router({
-  mode: 'history',
   routes: [
     {
       path: '/',

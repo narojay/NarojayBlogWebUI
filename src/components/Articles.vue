@@ -44,7 +44,7 @@ export default {
     getData: function() {
       this.$http
         .get(
-          "https://localhost:44385/api/Article/Articles/" +
+          "/api/Article/Articles/" +
             this.page +
             "?size=" +
             this.size

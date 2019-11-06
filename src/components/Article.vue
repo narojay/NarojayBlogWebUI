@@ -34,7 +34,7 @@ export default {
 
     setData: function() {
       let id = this.$route.params.id;
-      this.$http.get("https://localhost:44385/api/Article/Article/"+id).then(response => this.info = response.data)
+      this.$http.get("/api/Article/Article/"+id).then(response => this.info = response.data)
     }
   }
 };
