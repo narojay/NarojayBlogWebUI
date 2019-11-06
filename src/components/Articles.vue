@@ -34,7 +34,7 @@ export default {
       total: 0,
       page: 1,
       pageSize: 0,
-      size: 7
+      size: 10
     };
   },
   mounted() {

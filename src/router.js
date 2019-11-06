@@ -3,6 +3,7 @@ import AboutMe from './components/AboutMe.vue'
 import Articles from './components/Articles.vue'
 import Article from './components/Article.vue'
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -11,6 +12,6 @@ export default new Router({
     },
     { path: '/AboutMe', name: 'AboutMe', component: AboutMe },
     { path: '/Article/:id', name: 'Article', component: Article }
-
   ]
+
 })
