@@ -10,10 +10,11 @@
 export default {
   data() {
     return {
-      info: 1
+      info: 0,
+      id:0
     };
   },
-  mounted() {
+  created() {
     this.setData();
   },
   computed: {
@@ -30,8 +31,10 @@ export default {
     }
   },
   methods: {
+
     setData: function() {
-      this.info = this.$route.params.id;
+      let id = this.$route.params.id;
+      this.$http.get("https://localhost:44385/api/Article/Article/"+id).then(response => this.info = response.data)
     }
   }
 };

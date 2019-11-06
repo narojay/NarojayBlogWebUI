@@ -10,7 +10,7 @@ export default new Router({
       component: Articles,
     },
     { path: '/AboutMe', name: 'AboutMe', component: AboutMe },
-    { path: '/Article/', name: 'Article', component: Article }
+    { path: '/Article/:id', name: 'Article', component: Article }
 
   ]
 })

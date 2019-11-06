@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-for="item in info.values" :key="item.id">
-      <router-link :to="{name: 'Article', params: {id: item}}">
+      <router-link :to="{name: 'Article', params: {id: item.id}}">
         <span id="titleAticlesId" class="titleClass">{{item.title}}</span>
       </router-link>
       <br />
