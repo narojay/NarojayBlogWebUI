@@ -1,6 +1,6 @@
 # NarojayBlogWebUI
 适合初学者的学习vue的博客项目<br>
-前端项目对应的后端api [webapi](https://github.com/hjsjy/NarojayBlog)<br>
+前端项目对应的后端api [NarojayBlogWebAPi](https://github.com/hjsjy/NarojayBlog)<br>
 项目运行需要两个项目一起运行<br>
  [博客在线演示](http://www.narojay.com)<br>
  [博客SwaggerApi](http://www.narojay.com:8081/swagger/index.html)<br>
