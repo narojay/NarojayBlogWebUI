@@ -5,7 +5,7 @@
  [博客在线演示](http://www.narojay.com)<br>
  [博客SwaggerApi](http://www.narojay.com:8081/swagger/index.html)<br>
 后续会添加其他功能 如 目录,评论,留言板, 阅读数，点赞数。<br>
-
+如果觉得对你有点用 希望可以给我star一下哦😁。
 ## 效果展示
 - 首页
 ![首页](https://github.com/hjsjy/NarojayBlogWebUI/blob/master/public/picture/1.png)
